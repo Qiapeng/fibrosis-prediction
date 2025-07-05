@@ -15,4 +15,8 @@ shap==0.47.1
 slicer==0.0.8
 wheel==0.44.0
 xgboost==3.0.0
-
+streamlit==1.25.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+joblib==1.2.0
