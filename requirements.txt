@@ -1,9 +1,16 @@
+# 核心依赖
 matplotlib==3.9.2
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
-shap==0.47.1
 streamlit==1.25.0
 xgboost==1.7.6
 joblib==1.2.0
+
+# 可选依赖 (根据实际需求保留或移除)
+shap==0.42.0  # 如果必须使用 SHAP，尝试这个版本
+beautifulsoup4  # 如果需要解析 HTML/XML
+lime  # 如果 SHAP 无法安装
+
+# 基础工具
 setuptools>=67.0.0
