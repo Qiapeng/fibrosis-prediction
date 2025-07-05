@@ -230,8 +230,8 @@ def main():
     st.title("XGBoost Model for Intestinal Fibrosis Severity Assessment")
     
     # 直接指定数据路径（可根据需要修改）
-    train_data_path = "B:/Anaconda/spyder/.spyder-py3/lasso_data_train.csv"
-    test_data_path = "B:/Anaconda/spyder/.spyder-py3/lasso_data_test.csv"
+    train_data_path = "lasso_data_train.csv"
+    test_data_path = "lasso_data_test.csv"
     
     # 加载和预处理数据
     train_x, train_y, val_x, val_y, feature_names, class_mapping, scaler, continuous_vars, categorical_vars = load_and_preprocess_data(
